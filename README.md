@@ -1,1 +1,1 @@
-# news-aggregator
+# Trend-Pulse
