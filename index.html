@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <meta name="description" content="Trend Pulse - Your source for the latest news articles from around the world.">
     <title>Trend Pulse - News Aggregator</title>
     <!-- Link to external CSS file for styling -->
     <link rel="stylesheet" href="styles.css">
@@ -16,11 +16,11 @@
             <!-- Navigation bar -->
             <nav>
                 <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#top-headlines">Top Headlines</a></li>
-                    <li><a href="#search">Search</a></li>
-                    <li><a href="#sources">Sources</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#home" aria-label="Home">Home</a></li>
+                    <li><a href="#top-headlines" aria-label="Top Headlines">Top Headlines</a></li>
+                    <li><a href="#search" aria-label="Search">Search</a></li>
+                    <li><a href="#sources" aria-label="Sources">Sources</a></li>
+                    <li><a href="#contact" aria-label="Contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -54,6 +54,14 @@
                 <form id="search-form">
                     <input type="text" id="search-query" placeholder="Enter keywords" required>
                     <button type="submit">Search</button>
+                    <!-- Dropdown for source selection -->
+                    <div>
+                        <label for="source-select">Filter by source:</label>
+                        <select id="source-select">
+                            <option value="">Select a source</option>
+                            <!-- Options will be populated by JavaScript -->
+                        </select>
+                    </div>
                 </form>
                 <!-- Placeholder for search results -->
                 <div id="search-results">
@@ -91,6 +99,7 @@
                 </form>
             </div>
         </section>
+        
     </main>
 
     <!-- Footer Section -->
