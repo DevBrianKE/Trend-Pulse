@@ -21,7 +21,7 @@ function displayTopHeadlines(articles) {
 
     if (articles.length === 0) {
         container.innerHTML = '<p>No top headlines available.</p>';
-        return;
+        return; 
     }
 
     articles.forEach(article => {
