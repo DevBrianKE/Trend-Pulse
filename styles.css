@@ -290,3 +290,32 @@ footer a:hover {
         transform: translateY(0);
     }
 }
+/* For tablets */
+@media (min-width: 600px) and (max-width: 900px) {
+    header nav ul li {
+        display: inline-block;
+        margin: 0 10px;
+    }
+    article, .source {
+        width: 45%;
+    }
+}
+
+/* For mobile phones */
+@media (max-width: 600px) {
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    header nav ul li {
+        margin: 10px 0;
+    }
+    article, .source {
+        width: 100%;
+    }
+    #search-form input, #search-form button {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
