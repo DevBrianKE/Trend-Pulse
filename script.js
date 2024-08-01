@@ -130,24 +130,6 @@ function displaySearchResults(articles) {
         container.appendChild(articleElement);
     });
 }
-async function fetchSearchResults(query, source) {
-    showLoading();
-    try {
-        const url = new URL('/api/news', window.location.origin);
-        url.searchParams.append('query', query);
-        if (source) {
-            url.searchParams.append('source', source);
-        }
-
-        const response = await fetch(url);
-        const data = await response.json();
-        displayNews(data.articles, searchResultsContainer);
-    } catch (error) {
-        console.error('Error fetching search results:', error);
-    } finally {
-        hideLoading();
-    }
-}
 
 
 // Function to handle contact form submission
