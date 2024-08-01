@@ -7,6 +7,7 @@ async function fetchTopHeadlines() {
     try {
         const response = await fetch(`${baseUrl}/top-headlines?country=us&apiKey=${apiKey}`);
         const data = await response.json();
+        console.log("data", data)
         displayTopHeadlines(data.articles);
     } catch (error) {
         console.error('Error fetching top headlines:', error);
