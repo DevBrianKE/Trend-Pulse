@@ -7,14 +7,11 @@ Trend Pulse is a news aggregator web application that provides users with the la
 - [Project Overview](#project-overview)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Installation](#installation)
 - [Usage](#usage)
   - [Viewing Top Headlines](#viewing-top-headlines)
   - [Searching for Articles](#searching-for-articles)
   - [Exploring News Sources](#exploring-news-sources)
   - [Contact Form](#contact-form)
-- [Folder Structure](#folder-structure)
-- [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
 
@@ -33,23 +30,11 @@ Trend Pulse is designed to deliver the most recent and relevant news articles to
 ## Technologies Used
 
 - HTML5
-- CSS3
+- CSS
 - JavaScript
 - [News API](https://newsapi.org/)
 - Google Fonts
 - Font Awesome
-
-## Installation
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/DevBrianHQ/Trend-Pulse.git
-    ```
-2. Navigate to the project directory:
-    ```bash
-    cd Trend-Pulse
-    ```
-3. Open the `index.html` file in your preferred web browser.
 
 ## Usage
 
@@ -69,15 +54,6 @@ The sources section lists various news sources. Each source is displayed with a 
 
 Users can send feedback or inquiries using the contact form. The form collects the user's name, email, and message.
 
-## Folder Structure
-
-```plaintext
-Trend-Pulse/
-├── index.html
-├── styles.css
-├── script.js
-└── README.md
-```
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
