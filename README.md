@@ -2,6 +2,8 @@
 
 Trend Pulse is a news aggregator web application that provides users with the latest news articles from around the world. The application allows users to view top headlines, search for articles, and explore different news sources.
 
+![Trend Pulse Preview](trendpulse.gif)
+
 ## Table of Contents
 
 - [Project Overview](#project-overview)
