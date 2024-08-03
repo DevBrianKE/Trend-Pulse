@@ -17,7 +17,7 @@ Trend Pulse is a news aggregator web application that provides users with the la
 
 ## Project Overview
 
-Trend Pulse is designed to deliver the most recent and relevant news articles to users. It leverages the News API to fetch top headlines and news articles based on user queries. Users can also filter news articles by their preferred sources.
+Trend Pulse is designed to deliver the most recent and relevant news articles to users. It leverages the [News API](https://newsapi.org/) to fetch top headlines and news articles based on user queries. Users can also filter news articles by their preferred sources.
 
 ## Features
 
@@ -33,8 +33,8 @@ Trend Pulse is designed to deliver the most recent and relevant news articles to
 - CSS
 - JavaScript
 - [News API](https://newsapi.org/)
-- Google Fonts
-- Font Awesome
+- [Google Fonts](https://fonts.google.com/)
+- [Font Awesome](https://fontawesome.com/)
 
 ## Usage
 
@@ -55,9 +55,12 @@ The sources section lists various news sources. Each source is displayed with a 
 Users can send feedback or inquiries using the contact form. The form collects the user's name, email, and message.
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+
+This project is licensed under the [MIT License](LICENSE). See the LICENSE file for more details.
 
 ## Contact
-GitHub: DevBrianHQ
-Twitter: @DevBrianKE
+
+- GitHub: [DevBrianHQ](https://github.com/DevBrianHQ)
+- Twitter: [@DevBrianKE](https://twitter.com/DevBrianKE)
+
 Feel free to reach out if you have any questions or feedback!
